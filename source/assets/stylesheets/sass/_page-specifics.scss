@@ -1,0 +1,37 @@
+.question {
+
+  figure {
+    overflow: hidden;
+    margin: 0px auto $verticalSpace;
+    height: 320px; width: 240px;
+    img { height: 100%; width: auto; }
+  }
+
+  .button-error { margin-right: $gutter*4; }
+  .button-success { margin-left: $gutter*4; }
+
+}
+
+.detail {
+
+  .detail-question {
+    figure {
+      overflow: hidden;
+      float: left;
+      margin-right: $gutter;
+      height: 107px; width: 80px;
+      img { height: 100%; width: auto; }
+    }
+  }
+
+  form {
+    .form-field:nth-of-type(1) { width: 100%; }
+    textarea { height: 100px; }
+  }
+
+}
+
+.field-search {
+  label { width: 10%; }
+  input { width: 90%; }
+}
